@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+ <h1>Cadastro do Paciente</h1>
+ <fieldset>
+    <legend>Informações Pessoais</legend>
+    <form>
+        <label for="Nome">Nome</label>
+        <input type="text" name="Nome" id=""><br> <br>
+        <label for="Email">Email</label>
+        <input type="text" name="Email" id=""><br> <br>
+        <label for="Telefone">Telefone</label>
+        <input type="text" name="Telefone" id=""><br> <br>
+        <label for="endereco">Endereço</label>
+        <input type="text" name="endereco" id=""><br><br>
+        <label for="cep">CEP</label>
+        <input type="number" name="cep" id=""><br> <br>
+        <label for="RG">Rg</label>
+        <input type="number" name="RG" id=""><br> <br>
+        <label for="Nascimento">Data de Nascimento</label> 
+        <input type="date" name="Nascimento" id=""> <br> <br>
+        <label for="Genero">Genêro</label>
+        <select name="Genero" id="">
+            <option value="selecao">Selecione</option>
+            <option value="Feminno">Feminino</option>
+            <option value="Masculino">Masculino</option>
+            <option value="Generondefinido">Prefiro nao comentar</option>
+        </select><br> <br>
+        </fieldset>
+        <fieldset>
+            <legend>Sobre a Consulta</legend>
+        <label for="Convenio">Convênio</label>
+        <select name="Convenio" id="">
+            <option value="Selecione">Selecione seu convênio</option>
+            <option value="Amil">Amil</option>
+            <option value="Unimed">Unimed</option>
+            <option value="Intermedica">Intermedica</option>
+            <option value="Bradesco">Bradesco</option>
+        </select> <br> <br>
+        <label for="datacon">Data da consulta</label><br>
+        <input type="time" name="horario" id=""><br>
+        <input type="date" name="datacon" id=""><br> <br>
+        <label for="sintomas">Quais são os sintomas</label><BR></BR>
+        <input type="text" name="sintomas" id="">
+</fieldset> <br>
+ <input type="submit" value="Enviar">
+        
+
+    </form>
+  
+    
+</body>
+</html>
